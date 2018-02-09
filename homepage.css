@@ -169,3 +169,16 @@ h2{
   text-align: center;
 
 }
+
+#p_just{
+  /* align-content: flex-start; */
+  text-align: justify;
+}
+
+.caption {
+  color:#999791;
+  font-family:  'Roboto', sans-serif;
+  font-size: 0.75em;
+  font-style: italic;
+  text-align: center;
+}

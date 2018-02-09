@@ -15,7 +15,7 @@
           <a class = "navbar-header">DATA VISUALIZATION</a>
         </div>
         <div class = "box">
-          <li><a  href="index.html">SPRING 2018</a></li>
+          <li><a  href="index.html">SPRING 2018 - COLUMBIA GSAPP</a></li>
         </div>
       </div>
 
@@ -50,21 +50,37 @@
     </ul>
 
       <div id=main class="center">
-        <h2>ASSIGNMENT 3</h2>
+        <h2>ASSIGNMENT 3 - <i>Built NYC</i></h2>
         <img class = "large_img" src = "images/Assignment2/A03_Scatter_Log_final.jpg"></img>
-        <p>A static visualizatoin that displays underbuilt and overbuilt lots in Manhattan in the form of a scatterplot. Each datapoint is a representation of a given lot and maintains relative size and orientation.</p>
-        <img class = "main_img" src = "images/Assignment2/A03_Scatter_Log_Zoom.jpg"></img>
-        <p>Detail showing lot shapes.</p>
+        <p id=p_just> This visualization seeks to convey many features of the Pluto dataset within a static image through the manipulation
+          of position, geometry, and color. Foremost, like a tradition scatter plot, the visualization shows the relations between
+          two variables--existing building floor area and maximum allowable floor area. The shape of each data point takes the form
+           of the Pluto lot that it represents and preserves relative geometry, size, and cardinal orientation. This allows the viewer
+           to easily understand the variation in lot size as well as any existing correlations between lot geometry and other features.
+            Lastly, the lots were shaded using conventional Pluto land use colors in order to clearly disaggregate the dataset and
+            show trends by land use category.</p>
+
+        <p  id=p_just>Given that the primary intention of the visualization is to indicate the degree lots
+            are over or under built, there is a singular demarcation between the two categories to distinguish between the two
+            classifications. The visualization reveals a variety of interesting trends (significant amounts of underbuilt residential,
+            overbuilt comercial) especially when disaggregated by land use type. </p>
+
+        <p  id=p_just>Grasshopper was used to filter and spatially manipulate the manhattan Pluto shapefile. </p>
+
+
+
+        <img class = "large_img" src = "images/Assignment2/A03_Scatter_Log_Zoom.jpg"></img>
+        <p class="caption">Detail showing lot geometry</p>
         <div class = "container">
           <img class = "half_img_left" src = "images/Assignment2/A03_Scatter_Log_01-3.jpg"></img>
           <img class = "half_img_right" src = "images/Assignment2/A03_Scatter_Log_04.jpg"></img>
         </div>
-        <p>Residential lots-R1,R2,R3 (left) and mixed use lots (right).</p>
+        <p class="caption">Residential lots-R1,R2,R3 (left) and mixed use lots (right)</p>
         <div class = "container">
           <img class = "half_img_left" src = "images/Assignment2/A03_Scatter_Log_05.jpg"></img>
           <img class = "half_img_right" src = "images/Assignment2/A03_Scatter_Log_06.jpg"></img>
         </div>
-        <p>Commercial lots (left) and industrial/manufacturing lots (right).</p>
+        <p class="caption">Commercial lots (left) and industrial/manufacturing lots (right)</p>
 
       </div>
 
