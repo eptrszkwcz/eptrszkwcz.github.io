@@ -24,6 +24,14 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.java_embed {
+  margin: auto;
+  /* display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center; */
+}
+
 .navbar-header{
   color:white;
   font-family: sans-serif, 'Roboto', sans-serif;
